@@ -1,0 +1,30 @@
+body {
+  background-color: #fff;
+}
+
+form {
+  float: right;
+  margin: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+  form {
+    float: left;
+  }
+}
+
+
+/* Prevents mobile browsers from zooming in on input field */
+
+#reaction-input {
+  font-size: 16px;
+}
+
+img {
+  height: 150px;
+  max-width: 240px;
+}
+
+.btn-primary {
+  margin: 3px;
+}

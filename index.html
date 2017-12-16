@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Link to external javaScript -->
+  <script src="assets/javascript/app.js" type="text/javascript"></script>
+  <!-- Added link to the Bootstrap Library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Giphy Reactions</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <br>
+
+    <div class="row">
+      <div id="reaction-btn-div"></div>
+    </div>
+
+    <br>
+
+    <div class="row" id="heading"></div>
+
+    <br>
+
+    <div class="row">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="reaction-form-label">Add a reaction</label>
+          <input type="text" class="form-control" id="reaction-input" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-danger" id="add-reaction-btn">Submit</button>
+      </form>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-8">
+        <div class="row" id="reactions"></div>
+      </div>
+
+      <div class="col-md-4"></div>
+
+    </div>
+
+
+
+  </div>
+  <br>
+
+</body>
+
+</html>
